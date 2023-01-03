@@ -1,144 +1,103 @@
-html {
-    box-sizing: border-box;
-    width: auto;
-    height: auto;
-
-}
-
-ul,
-li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
-body {
-
-    font-size: 20px;
-    line-height: 20px;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-}
-
 a {
+    color: #211F54;
     text-decoration: none;
-    color: inherit;
 }
 
-.container {
+header {
+    display: flex;
+    justify-content: space-between;
     width: 1440px;
     height: 118px;
     left: 0%;
     right: 0%;
     top: 0px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+
+
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+.header_section {
+    display: flex;
 
-$transition: all .3s ease-in-out;
-$colorA: #2c3e50;
-$colorB: #fff;
-$colorC: #8e44ad;
-
-.frame {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -200px;
-    border-radius: 2px;
-    box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
-    background: $colorA;
-    color: $colorA;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
-.button {
-    position: absolute;
-    z-index: 2;
-    width: 200px;
-    height: 70px;
-    top: 160px;
-    left: 100px;
-    color: $colorA;
-    font-size: 25px;
+.header_item {
+    padding-top: 44px;
+    padding-right: 22px;
+    padding-bottom: 44px;
+    padding-left: 40px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 68px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+    color: #211F54;
+}
+
+.headerlogo {
+    padding-left: 110px;
+    padding-right: 40px;
+    color: #211F54;
+    font-size: 19px;
+
+}
+
+
+/* Правая часть */
+.header_item1 {
+    padding-top: 44px;
+    padding-left: 280px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #211F54;
+
+}
+
+.header_item2 {
+    padding-top: 48px;
+    padding-left: 2px;
+    padding-right: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
     text-align: center;
-    transition: $transition;
+
+    color: #211F54;
+}
+
+@import url(https: //img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=2000);
+
+
+
+
+.border {
+
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-right: 110px;
+    border: #0075FF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 50px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+a.button {
+    display: inline-block;
+    background: #2196f3;
+    color: #fff;
+    border-radius: 14px;
+    width: 174px;
+    height: 54px;
     cursor: pointer;
 
-    &:before {
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        left: 0;
-        content: '';
-        display: block;
-        width: 200px;
-        height: 70px;
-        background: $colorB;
-        transform: translate(0, 0);
-        transition: $transition;
-        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    }
 
-    &:after {
-        position: absolute;
-        z-index: -2;
-        top: 0;
-        left: 0;
-        content: '';
-        display: block;
-        width: 200px;
-        height: 70px;
-        background: $colorC;
-        transform: translate(13px, 12px);
-        transition: $transition;
-        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
-    }
-
-    &:hover {
-        transform: translate(13px, 12px);
-        color: $colorB;
-
-        &:before {
-            background: $colorC;
-            box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
-        }
-
-        &:after {
-            transform: translate(-15px, -10px);
-            background: $colorB;
-        }
-    }
 }
