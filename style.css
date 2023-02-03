@@ -5,6 +5,8 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    max-width: 1790px;
 
 }
 
@@ -23,6 +25,8 @@ header {
 
 .header_section {
     display: flex;
+
+
 
 }
 
@@ -78,10 +82,7 @@ header {
 
 
 .border {
-
-    padding-top: 32px;
-    padding-left: 24px;
-    padding-right: 110px;
+    padding-left: 498px;
     border: #0075FF;
     text-align: center;
     text-decoration: none;
@@ -106,14 +107,14 @@ a.button {
 }
 
 /* Main container */
-.main__contact_item {
+.main__contact_item1 {
     position: absolute;
     height: 72px;
     left: 0%;
     right: 0%;
     top: 292px;
     width: 678px;
-    padding-left: 110px;
+    padding-left: 252px;
     padding-bottom: 140px;
     padding-right: 40px;
     padding-top: 34px;
@@ -160,40 +161,54 @@ a.button {
 .main__contact_item {
     position: absolute;
     height: 72px;
-    top: 292px;
-    width: 678px;
-    padding: 522px 652px 140px 110px;
+    left: 0%;
+    right: 0%;
+    top: 613px;
+    width: 1510.79px;
 }
 
 .border1 {
 
     position: absolute;
     height: 72px;
-    width: 88px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 50px;
-    text-align: center;
-    color: #FFFFFF;
-    padding: 0px 5px 0px 1px;
+    left: 0%;
+    right: -5%;
+    top: calc(50% - -710px/2);
 
 
 }
 
+.contacts-container1 {
+    position: absolute;
+    height: 72px;
+    right: 263px;
+    top: 462px;
+    padding-left: 28px;
+}
+
+.contacts-type1 {
+    position: absolute;
+    height: 72px;
+    left: -25%;
+    right: 76.85%;
+    top: calc(50% - 21px/2);
+}
+
+
 .contacts-container {
     position: absolute;
     height: 72px;
-    right: 756px;
-    top: 482px;
+    right: 263px;
+    top: 462px;
     padding-left: 28px;
 }
 
 .contacts-type {
     position: absolute;
     height: 72px;
-    left: -99%;
+    left: -45%;
     right: 76.85%;
-    top: calc(50% - 11px/2);
+    top: calc(50% - 21px/2);
 }
 
 
@@ -1759,7 +1774,7 @@ button {
     height: 18px;
     left: 20%;
     right: 44.39%;
-    top: -23.5px;
+    top: -37.5px;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
@@ -1778,4 +1793,142 @@ button {
     font-size: 28px;
     line-height: 36px;
     olor: #FFFFFF;
+}
+
+/* blok6 */
+.main_content6 {
+    position: absolute;
+    height: 680px;
+    left: 1.89%;
+    right: 1.89%;
+    top: 5484px;
+    width: 1516.53px;
+}
+
+.main_blokk6 {
+    position: absolute;
+    height: 680px;
+    left: 0%;
+    right: 47.54%;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.main__blok6_2 {
+    position: absolute;
+    height: 560px;
+    left: 59.02%;
+    right: 0%;
+    top: 60px;
+}
+
+.main__content6__3 {
+    position: absolute;
+    height: 116px;
+    left: 0%;
+    right: 4.4%;
+    top: 0px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #211F54;
+
+}
+
+.my__text6_4 {
+    position: absolute;
+    height: 91px;
+    left: 0%;
+    right: 0.8%;
+    top: 208px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6E7191;
+}
+
+.container_list_item6 {
+    position: absolute;
+    height: 188px;
+    left: 0%;
+    right: 30%;
+    top: 249px;
+    width: 1486px;
+}
+
+.list-item6 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #211F54;
+    height: 188px;
+    left: 59%;
+    right: -12%;
+    top: 116px;
+}
+
+input[type='radio'],
+label {
+    cursor: pointer;
+}
+
+input[type='radio'] {
+    position: relative;
+    height: 22px;
+    width: 22px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+
+input[type='radio']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EDF5FF;
+
+}
+
+input[type='radio']:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    transform: translate(-50%, -50%);
+    visibility: visible;
+}
+
+.list6__2 {
+    position: absolute;
+    height: 176px;
+    left: 88%;
+    right: 0%;
+    top: 116px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.btn6_1 {
+    left: -429px;
+    right: 0%;
+    top: 36px;
+}
+
+.contacts-container6_1 {
+    position: absolute;
+    height: 72px;
+    left: 78.06%;
+    right: 0%;
+    top: calc(50% - 79px/2);
 }
