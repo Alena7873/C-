@@ -645,7 +645,7 @@ a.button {
 .front__text-para {
     position: relative;
     top: -5px;
-    color: #000;
+    color: #171616;
     font-size: 14px;
     letter-spacing: 0.4px;
     font-weight: 400;
@@ -692,6 +692,12 @@ a.button {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.back1 {
+
+    background-color: #0075FF;
+
 }
 
 .social-media-wrapper {
@@ -1272,7 +1278,7 @@ button {
     height: 672px;
     left: 5.97%;
     right: 5.97%;
-    top: 3211px;
+    top: 3346px;
 
 }
 
@@ -1289,7 +1295,7 @@ button {
     height: 116px;
     left: 0%;
     right: 61.07%;
-    top: 0px;
+    top: -140px;
 
 }
 
@@ -1433,6 +1439,28 @@ button {
     border-top-left-radius: 5px;
 }
 
+.front__bkg-photo4_2 {
+    position: relative;
+    height: 150px;
+    background: url("https://blackclean.ru/images/tild6364-3733-4265-a437-323862373064__depositphotos_207466.jpg") no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.front__bkg-photo4_3 {
+    position: relative;
+    height: 150px;
+    background: url("https://bestereinigung.de/wp-content/uploads/2021/06/professional-cleaner-wearing-protection-uniform-cleaning-floor-production-plant.jpg") no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
 .front__text5 {
     position: relative;
     top: -12px;
@@ -1444,20 +1472,12 @@ button {
 
 .front__text5-hover {
     position: relative;
-    top: 10px;
+    top: 14px;
     font-size: 10px;
-    color: #0075FF;
     backface-visibility: hidden;
-
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .4px;
-
-    border: 2px solid #0075FF;
-    padding: 8px 15px;
-    border-radius: 30px;
-    background: #ACB5C1;
-    color: white;
+    letter-spacing: 2px;
+    color: rgb(52, 49, 49);
 }
 
 /* forma */
@@ -1623,4 +1643,139 @@ button {
 .text_22 {
     color: #afafb6;
     text-decoration: none;
+}
+
+..front__text-para5 {
+    position: relative;
+    top: 32px;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* blo5 */
+
+.main_content5 {
+    position: absolute;
+    height: 676px;
+    left: 7.64%;
+    right: 7.64%;
+    top: 4588px;
+    width: 1516.53px;
+}
+
+/* gradient */
+
+
+.main_content5 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main_blokk5 {
+    position: absolute;
+    height: 676px;
+    left: 0%;
+    right: 54.8%;
+    top: 0px;
+
+    border-radius: 0px;
+}
+
+.main__blok5_2 {
+    position: absolute;
+    height: 401px;
+    left: 51.48%;
+    right: 0%;
+    top: 137.5px;
+}
+
+.my__text5_1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main__content5_2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+
+}
+
+.my__text5_2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.border5 {
+    position: absolute;
+    height: 72px;
+    left: 0%;
+    right: -50%;
+    top: calc(50% - 223px/2 + 0.5px);
+}
+
+.contacts-container5_1 {
+    position: absolute;
+    height: 72px;
+    left: 64.06%;
+    right: 0%;
+    top: calc(50% - 202px/2);
+}
+
+.contacts-type5-1 {
+    height: 72px;
+    filter: drop-shadow(0px 4px 10px rgba(20, 20, 43, 0.04));
+}
+
+.sidebar-title5_2 {
+    position: absolute;
+    height: 18px;
+    left: 20%;
+    right: 44.39%;
+    top: -23.5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contacts-item5_3 {
+    position: absolute;
+    height: 36px;
+    left: 20%;
+    right: 0%;
+    top: -13.5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    olor: #FFFFFF;
 }
