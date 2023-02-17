@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    outline: 0 !important;
+}
+
 a {
     color: #211F54;
     text-decoration: none;
@@ -6,6 +11,7 @@ a {
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    max-width: auto;
 
 
 }
@@ -26,6 +32,7 @@ header {
 .header_section {
     display: flex;
     height: 70px;
+
 
 }
 
@@ -53,7 +60,7 @@ header {
 /* Правая часть */
 .header_item1 {
     padding-top: 44px;
-    padding-left: 880px;
+    padding-left: 171px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -109,7 +116,7 @@ a.button {
 }
 
 .btn1_1 {
-    left: -10px;
+    left: 48px;
     right: 0%;
     top: 9px;
 }
@@ -189,7 +196,7 @@ a.button {
 .contacts-container1 {
     position: absolute;
     height: 72px;
-    right: -181px;
+    right: -31px;
     top: 462px;
     padding-left: 28px;
 }
@@ -372,7 +379,7 @@ a.button {
 
 .img_1 {
     position: absolute;
-    left: 85%;
+    left: 48%;
     right: 0%;
     top: 10%;
     bottom: 0%;
@@ -430,7 +437,7 @@ a.button {
 
     position: absolute;
     height: 718px;
-    left: 35.97%;
+    left: 0.97%;
     right: 5.97%;
     top: 1092px;
 }
@@ -982,10 +989,15 @@ button {
 .contacts-type2 {
     width: 240px;
     height: 240px;
-    left: calc(50% - 240px/2);
-    top: calc(50% - 240px/2 - 76px);
     border-radius: 0px;
 }
+
+.contacts-type1_1 {
+    width: 799px;
+    height: 734px;
+    border-radius: 0px;
+}
+
 
 .title2 {
 
@@ -1050,7 +1062,7 @@ button {
     position: absolute;
     height: 95px;
     top: 997px;
-    padding: 57px 732px 0 491px;
+    padding: 57px 0 0 678px;
     text-align: center;
     line-height: 50px;
     color: #211F54;
@@ -1321,8 +1333,8 @@ body {
 
 /* Main heading for card's front cover */
 .card-front__heading {
-    font-size: 1.5rem;
-    margin-top: .25rem;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 /* Main heading for inside page */
@@ -1336,7 +1348,7 @@ body {
 /* For both inside page's main heading and 'view me' text on card front cover */
 .inside-page__heading,
 .card-front__text-view {
-    font-size: 1.3rem;
+    font-size: 14px;
     font-weight: 800;
     margin-top: .2rem;
 }
@@ -1348,7 +1360,7 @@ body {
 
 .inside-page__heading--ski,
 .card-front__text-view--ski {
-    color: #211F54;
+    color: #279eb2;
 }
 
 .inside-page__heading--beach,
@@ -1358,7 +1370,7 @@ body {
 
 .inside-page__heading--camping,
 .card-front__text-view--camping {
-    color: #0075FF;
+    color: #00b97d;
 }
 
 /* Front cover */
@@ -1369,8 +1381,12 @@ body {
 
 /* For pricing text on card front cover */
 .card-front__text-price {
-    font-size: 1.2rem;
-    margin-top: -.2rem;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.text-price1 {
+    padding-top: 10px;
 }
 
 /* Back cover */
@@ -1378,6 +1394,11 @@ body {
 /* For inside page's body text */
 .inside-page__text {
     color: #333;
+
+}
+
+.Page_text3_1 {
+    color: #6E7191;
 }
 
 /* Icons ===========================================*/
@@ -1390,6 +1411,12 @@ body {
     width: 3.25rem;
 }
 
+.image1q {
+    text-align: center;
+
+
+}
+
 /* Buttons =================================================*/
 
 .inside-page__btn {
@@ -1398,7 +1425,7 @@ body {
     border-radius: .5rem;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 1rem;
     overflow: hidden;
     padding: .7rem .75rem;
     position: relative;
@@ -1500,7 +1527,7 @@ body {
 
 /* A container to hold the flip card and the inside page */
 .card {
-    background-color: rgba(0, 0, 0, .05);
+    background-color: #0075FF;
     box-shadow: -.1rem 1.7rem 6.6rem -3.2rem rgba(0, 0, 0, 0.5);
     height: 15rem;
     position: relative;
@@ -1566,7 +1593,7 @@ body {
     flex-direction: column;
     height: 12rem;
     justify-content: center;
-    padding: .75rem;
+    padding: 25px;
 }
 
 .card-front__tp--city {
@@ -2449,9 +2476,54 @@ input[type='radio']:checked::after {
 
 .blok_7 {
     position: absolute;
-    left: 1145px;
+    left: 864px;
     right: 0%;
     top: 136px;
     border-radius: 0px;
 
+}
+
+/* main conteiner 7 */
+.main_content7 {
+    position: absolute;
+    height: 791px;
+    left: 5.97%;
+    right: 5.97%;
+    top: 7373.56px;
+
+}
+
+.main_blokk7 {
+    position: absolute;
+    height: 121px;
+    left: 1.89%;
+    right: 1.89%;
+    top: 0px;
+
+}
+
+.main__content7_1 {
+    height: 58px;
+    padding-right: 545px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #211F54;
+}
+
+.my__text7_2 {
+    position: absolute;
+    height: 61px;
+    left: 0%;
+    right: 57.2%;
+    top: 66.44px;
+
+}
+
+.border7 {
+    position: absolute;
+    width: 217px;
+    height: 72px;
+    left: calc(50% - -1083px/2 - 116.57px);
+    top: calc(50% - 72px/2 - 0.06px);
 }
